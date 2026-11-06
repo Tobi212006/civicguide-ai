@@ -20,6 +20,10 @@ Open `index.html` in a modern browser. The app is static and requires no build s
 
 Information and requirements may change; confirm details on each official portal. CivicGuide is an independent student prototype, not affiliated with the Government of India.
 
+## Research direction
+
+A proposed comparison of the current keyword-search directory with a future source-grounded retrieval prototype is documented in [Research Exploration Plan](docs/RESEARCH_PLAN.md). This is a plan, not a claim that an AI system or experiment has already been completed.
+
 ## Roadmap
 1. Maintain a reviewed service catalogue and last-checked dates.
 2. Add accessible Marathi and Hindi interfaces.
