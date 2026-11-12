@@ -1,0 +1,31 @@
+name: Knowledge Assistant checks
+
+on:
+  push:
+    paths:
+      - "knowledge-assistant/**"
+      - ".github/workflows/knowledge-assistant.yml"
+  pull_request:
+    paths:
+      - "knowledge-assistant/**"
+      - ".github/workflows/knowledge-assistant.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: knowledge-assistant
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Run labelled evaluation
+        run: python evaluate.py
