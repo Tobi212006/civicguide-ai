@@ -1,0 +1,38 @@
+[
+  {
+    "id": "national-scholarship-portal",
+    "title": "National Scholarship Portal",
+    "category": "education",
+    "description": "Official portal to explore student scholarship schemes, application information and updates.",
+    "keywords": ["student", "scholarship", "education", "college", "university", "financial aid", "study"],
+    "source_name": "National Scholarship Portal",
+    "source_url": "https://scholarships.gov.in/Students"
+  },
+  {
+    "id": "national-career-service",
+    "title": "National Career Service",
+    "category": "careers",
+    "description": "Official career services including job search, career guidance, counselling and job fair information.",
+    "keywords": ["job", "career", "employment", "work", "resume", "recruitment", "counselling"],
+    "source_name": "National Career Service",
+    "source_url": "https://www.ncs.gov.in/"
+  },
+  {
+    "id": "uidai",
+    "title": "UIDAI Aadhaar Services",
+    "category": "identity",
+    "description": "Official UIDAI website for Aadhaar-related services and current instructions.",
+    "keywords": ["aadhaar", "uidai", "identity", "address", "update", "biometrics"],
+    "source_name": "Unique Identification Authority of India",
+    "source_url": "https://uidai.gov.in/en/"
+  },
+  {
+    "id": "umang",
+    "title": "UMANG",
+    "category": "digital-services",
+    "description": "Government gateway for discovering central and state digital public services.",
+    "keywords": ["government", "digital", "services", "scheme", "central", "state", "umang"],
+    "source_name": "UMANG",
+    "source_url": "https://www.umang.gov.in/landing/"
+  }
+]
